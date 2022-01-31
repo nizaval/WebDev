@@ -1,4 +1,63 @@
 /*Your style will go here*/
 body{
-    background-color: darkgray;
+    background-color: rgb(233, 229, 214);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+p{
+    font-size: 20pt;
+    color: rgb(138, 43, 43);
+}
+
+h1{
+    color: rgb(192, 75, 7);
+}
+
+h2{
+    background-color: rgb(231, 174, 147);
+}
+
+.standout{
+    background-image: linear-gradient(to left, rgb(231, 174, 147), rgb(224, 123, 75));
+}
+
+/*The following style is for file listing6_2.html*/
+.centAlign{
+    text-align: center;
+}
+
+.rightAlign{
+    text-align: right;
+}
+
+#tableHead{
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: rgb(52, 110, 219);
+}
+
+.preBack{
+    background-color: rgba(150, 56, 56, 0.822);
+    width: 45%;
+}
+
+
+
+.art1{
+    column-count: 3;
+    column-gap: 21px;
+}
+
+.head1{
+    text-align: center;
+    column-span: all;
+}
+
+.para1{
+    margin-top: 0px;
+    margin-bottom: 12px;
+}
+
+.foot1{
+    column-span: all;
 }
