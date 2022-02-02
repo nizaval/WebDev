@@ -1,5 +1,5 @@
 body{
-    background-color:#c0a58cad;
+    background-color:#e7e3dc;
     color: #1e6d66;
 }
 
@@ -35,10 +35,15 @@ body{
 }
 
 .div1{
-  
+  background-color: #FFA17A;
+  border-radius: 5%;
+  width: 50%;
+  height:35rem;
+}
+.im{
   float: left;
-  text-align: center;
-  
+  margin-left: 10rem;
+  margin-top: 1rem;
 }
 
 .div2{
@@ -46,17 +51,19 @@ body{
   width: 50%;
   height:35rem;
   float: right;
+ border-radius: 5%;
 }
 
 #h1{
-  text-align: left;
-  margin-left: 12rem;
+  text-align: right;
+  margin-right: 10rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 #p2{
-  margin-top: 16rem;
-  text-align: right;
+  margin-top: 10rem;
+  text-align: center;
+  margin-left: 10rem;
   margin-right: 10rem;
   font-weight: bold;
   font-size: large;
@@ -64,13 +71,12 @@ body{
 
 .facts{
   font-weight: bold;
-  font-size: x-large;
+  font-size: large;
 }
 
 .h1{
   text-align: left;
-  margin-top: 5rem;
-  margin-left: 12rem;
+  margin-left: 10rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
