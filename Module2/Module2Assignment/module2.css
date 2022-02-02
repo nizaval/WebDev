@@ -1,38 +1,95 @@
 body{
-    background-color:aliceblue;
+    background-color:#c0a58cad;
+    color: #1e6d66;
 }
 
 .sitetitle{
     font-size: 40px;
-    background-color: #dc143c;
+    background-color: #d0b08f91;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #ffffff;
+    color: #2b3b28;
     text-align: center;
 }
 
 /*navigation style*/
 .navbar {
-    overflow: hidden;    
-    position: fixed;
-    top: 80px;
-    width: 100%;
-  }
+  overflow: hidden;    
+  position: static;
+  padding-top: 30px;
+  width: 100%;
+}
 
-  .navbar a {
-    float: left;
-    display: block;
-    color: #dc143c;
-    text-align: center;
-    padding: 15px 18px;
-    text-decoration: none;
-    font-size: 18px;
-  }
-  .navbar a:hover {
-    color: #ffffff;
-    background-color: #666666;
-  }
-  .container {
-    padding: 18px;
-    margin-top: 25px;
-    height: 2000px;
-  }
+.navbar a {
+  float: left;
+  display: block;
+  color: #4a8a7f;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #514438;
+  background-color: #d0b08f65;
+}
+
+.div1{
+  
+  float: left;
+  text-align: center;
+  
+}
+
+.div2{
+  background-color: #b8a89a94;
+  width: 50%;
+  height:35rem;
+  float: right;
+}
+
+#h1{
+  text-align: left;
+  margin-left: 12rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#p2{
+  margin-top: 16rem;
+  text-align: right;
+  margin-right: 10rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+.facts{
+  font-weight: bold;
+  font-size: x-large;
+}
+
+.h1{
+  text-align: left;
+  margin-top: 5rem;
+  margin-left: 12rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.art1{
+  column-count: 2;
+  column-gap: 21px;
+}
+
+.head1{
+  text-align: center;
+  column-span: all;
+}
+
+.para1{
+  margin-top: 0px;
+  font-size: large;
+}
+
+.foot1{
+  padding-top: 20rem;
+  text-align: center;
+}
