@@ -35,10 +35,11 @@ body{
 }
 
 .div1{
-  background-color: #FFA17A;
-  border-radius: 5%;
+  background-color: #c57e5fdc;
+  border-radius: 2%;
   width: 50%;
   height:35rem;
+  float: left;
 }
 .im{
   float: left;
@@ -51,7 +52,12 @@ body{
   width: 50%;
   height:35rem;
   float: right;
- border-radius: 5%;
+ border-radius: 2%;
+}
+
+.im3{
+  float: right;
+ border-radius: 1%;
 }
 
 #h1{
@@ -81,8 +87,8 @@ body{
 }
 
 .art1{
-  column-count: 2;
-  column-gap: 21px;
+  column-count: 3; 
+  column-gap: 5rem;
 }
 
 .head1{
@@ -92,10 +98,15 @@ body{
 
 .para1{
   margin-top: 0px;
-  font-size: large;
+  font-size: x-large;
 }
 
-.foot1{
-  padding-top: 20rem;
+table, tr, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
   text-align: center;
+  font-size: large;
+  font-weight: bold;
 }
+
