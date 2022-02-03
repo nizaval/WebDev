@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <meta charset = "utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name ="viewport" content="width=device-width, initial-scale =1">
+    <script src="swapping.js"></script>
+    <link rel="stylesheet" href="swappingStyle.css">
+    
+    <title>Random Images</title>
+  </head>
+  
+  <body>
+    <h1>Niza Valenzuela</h1>
+    <h2>Swapping Images</h2>
+    <p>This page shows how to swap images using JavaScripts</p>
+    <img id="lg_nature" src="images/nature1.jpg" alt="This is the first nature image" 
+    style="border: 1.5px solid black; margin-right: 13px; width: 650px; height: 700px;">
+    <aside >
+      <p id="picDesc" style="background-color: rgba(100, 148, 237, 0.712);">Breathtaking view from the highes part of mountains!</p>
+    </aside>
+
+    <div class="flex justify-content: left">
+        <img class="point" src = "images/nature1_S.jpg" 
+            onclick="showImage('images/nature1.jpg')"
+            style="border: 1px solid black; margin-right: 3px;"
+            alt="Nature image">
+
+        <img class="point" src = "images/nature2_S.jpg" 
+            onclick="showImage('images/nature2.jpg')"
+            style="border: 1px solid black; margin-right: 3px;"
+            alt="Nature image">
+
+        <img class="point" src = "images/nature3_S.jpg" 
+            onclick="showImage('images/nature3.jpg')"
+            style="border: 1px solid black; margin-right: 3px;"
+            alt="Nature image">
+
+
+    </div>
+    
+
+  
+  </body>
+</html>

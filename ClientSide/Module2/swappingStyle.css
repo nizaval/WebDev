@@ -1,0 +1,14 @@
+aside{
+    width: 40%;
+    padding-left: 1rem;
+    padding-top: 20rem;
+    margin-left: 1rem;
+    float: right;
+    font-size: x-large; 
+}
+
+.point{
+    cursor: pointer;
+    margin: 15px 0;
+}
+
