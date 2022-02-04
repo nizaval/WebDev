@@ -19,4 +19,9 @@ function showImage(image){
     }
 }
 
-//write a function to randomize the thext related to each different image
+function showTime(){
+    let gTime = new Date();
+    let ct = document.getElementById("display");
+    let tTime = gTime.toLocaleTimeString();
+    ct.innerHTML = tTime;
+}
