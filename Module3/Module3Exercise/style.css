@@ -46,3 +46,35 @@ a:focus{
 a:active{
     color: palevioletred;
 }
+
+.sitetitle{
+    font-size: 40px;
+    background-color: #d0b08f91;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2b3b28;
+    text-align: center;
+}
+
+/*navigation style*/
+.navbar {
+  overflow: hidden;    
+  position: static;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #4a8a7f;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+  margin-left: 10rem;
+}
+.navbar a:hover {
+  color: #514438;
+  background-color: #d0b08f65;
+}
