@@ -1,0 +1,55 @@
+Chapter 7 Study Guide
+
+1. To add links to other sites to your page, you do somethings like this:
+
+     <a href="http://www.supercheapsuits.com/~billybob/">Billy Bob's Site</a>;
+
+
+2. To create links on the same page, you can use anchor likens. For example you can do:
+
+    Type this at the top of the page:
+    <a href="#credits">About the Authors</a>
+    Type this at the beginning of the credits section:
+    <p id="credits">Credits...</p>
+
+3. If you email address is bon@soir.com, how would you make the text "goodnight greeting" into 
+  a link that people can click to compose and send you an email message?
+
+     Send me a &lt;a href = "mailto:bon@soir.com"&gt;goodnight greeting&lt;/a&gt;!
+
+
+4. What attribute can you add to an HTML element to turn it into an anchor?
+
+     he id attribute can be used on any HTML element as an anchor.
+
+
+5. What character do you use to link to an anchor?
+
+     You use the pound sign (#) to link to a named anchor point on the page.
+
+
+6. How do you tell a browser that the link target document should be 
+   downloaded rather than loaded in the window?
+
+   Use the attribute <em>download</em> to tell the browser the link target should be downloaded.
+
+
+7. When should you include http:// in a link?
+
+     You should include the <em>http://</em> and the rest of the FQDN when you are linking to a page
+     outside the current site.
+
+
+8. What mail features can you use in a mailto link?
+
+     You must point to the email address the message it to. Optional values are subject, body, cc, and bcc.
+
+
+9. When is the best case to force a link to open in a new window?
+
+     You should avoid forcing links to open in a new window at all costs.
+
+
+10. What pseudo-class do you use to style visted links?
+
+     Use the a:visited psuedo-class to style visited links.

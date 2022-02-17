@@ -1,0 +1,48 @@
+body{
+    background-color: #ebd1cc;
+}
+
+a{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.div1{
+    margin-left:25rem;
+    margin-bottom: 5rem;
+    padding-top: 2rem;
+    padding-bottom: 5rem;
+    font-weight: bold;
+}
+
+.img {
+    float: right;
+    margin-right: 30rem;
+}
+
+.img {
+    float: right;
+    margin-right: 35rem;
+}
+
+/* :link is a pseudo-class for the <a> tag */
+a:link{
+    color: darkslateblue;
+}
+
+a:visited{
+    color: rgb(100, 136, 134);
+}
+
+a:hover{
+    color: rgb(66, 122, 245);
+}
+
+a:focus{
+    color: darkcyan;
+}
+
+a:active{
+    color: palevioletred;
+}
