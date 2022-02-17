@@ -1,5 +1,6 @@
 body{
     background-color: #ebd1cc;
+    font-size: larger;
 }
 
 a{
@@ -18,12 +19,13 @@ a{
 
 .img {
     float: right;
-    margin-right: 30rem;
+    margin-right: 23rem;  
 }
 
-.img {
+.img2 {
     float: right;
-    margin-right: 35rem;
+    margin-right: 23rem;
+    
 }
 
 /* :link is a pseudo-class for the <a> tag */
