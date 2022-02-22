@@ -1,0 +1,148 @@
+body{
+    background-color:#e7e3dc;
+    color: #15645e;
+}
+
+.sitetitle{
+    font-size: 40px;
+    background-color: #d0b08f91;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #572e2e;
+    text-align: center;
+}
+
+/*navigation style*/
+.navbar {
+  overflow: hidden;    
+  position: static;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display:block;
+  color: #4a8a7f;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #514438;
+  background-color: #d0b08f65;
+}
+
+.div1{
+  background-color: #c57e5fdc;
+  border-radius: 2%;
+  width: 50%;
+  height:35rem;
+  float: right;
+}
+.im{
+  float: left;
+  margin-left: 10rem;
+  margin-top: 1rem;
+}
+
+.div2{
+  background-color: #b8a89a94;
+  width: 50%;
+  height:35rem;
+ border-radius: 2%;
+ text-align: center;
+}
+
+.im3{
+  float: right;
+ border-radius: 1%;
+ width: 30%;
+}
+
+#h1{
+  text-align: right;
+  margin-right: 10rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#p2{
+  margin-top: 10rem;
+  text-align: center;
+  margin-left: 10rem;
+  margin-right: 10rem;
+  font-weight: bold;
+  font-size: large;
+}
+
+.facts{
+  font-weight: bold;
+  font-size: large;
+}
+
+.h1{
+  text-align: left;
+  margin-left: 10rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.art1{
+  column-count: 3; 
+  column-gap: 5rem;
+}
+
+.head1{
+  text-align: center;
+  column-span: all;
+}
+
+.para1{
+  margin-top: 0px;
+  font-size: x-large;
+}
+
+table, tr, th, td{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+  text-align: center;
+  font-size: large;
+  font-weight: bold;
+}
+
+.d{
+  float:right;
+  font-size: larger;
+  text-align: center;
+}
+
+.d1{
+  float: left;
+  background-color: #c28f79dc;
+  border-radius: 2%;
+  width: 50%;
+  height:35rem;
+}
+
+.d2{
+  background-color: #b9826ad5;
+  border-radius: 2%;
+  width: 50%;
+  height:35rem;
+  margin-top: 35rem;
+  text-align: center;
+}
+
+a:link{
+  color: darkslateblue;
+}
+
+a:visited{
+  color: rgb(69, 111, 114);
+}
+
+a:hover{
+  color: rgb(66, 122, 245);
+}
+
