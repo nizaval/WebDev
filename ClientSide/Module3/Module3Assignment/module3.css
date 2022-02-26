@@ -1,0 +1,89 @@
+body{
+    background-color:#e7e3dc;
+    color: #15645e;
+}
+
+.sitetitle{
+    font-size: 40px;
+    background-color: #d0b08f91;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #572e2e;
+    text-align: center;
+}
+
+/*navigation style*/
+.navbar {
+  overflow: hidden;    
+  position: static;
+  padding-top: 30px;
+  width: 100%;
+}
+
+.navbar a {
+  float: left;
+  display:block;
+  color: #4a8a7f;
+  text-align: center;
+  padding: 15px 18px;
+  text-decoration: none;
+  font-size: x-large;
+  font-weight: bold;
+}
+.navbar a:hover {
+  color: #514438;
+  background-color: #d0b08f65;
+}
+
+
+a:link{
+  color: rgb(37, 167, 145);
+}
+
+a:visited{
+  color: rgb(69, 111, 114);
+}
+
+a:hover{
+  color: rgb(66, 122, 245);
+}
+
+.button1{
+  background-color: rgb(51, 148, 151);
+  color: rgb(38, 41, 41);
+  font-weight: bolder;
+  font-size: x-large;
+  border: 2px solid, #C0C0C0;
+  width: 200px;
+  height: 100px;
+  margin-right: 2rem;
+}
+.button2{
+  background-color: rgb(51, 148, 151);
+  color: rgb(38, 41, 41);
+  font-weight: bolder;
+  font-size: x-large;
+  border: 2px solid, #C0C0C0;
+  width: 200px;
+  height: 100px;
+}
+
+.b3{
+  background-color: rgb(77, 156, 128);
+  color: rgb(38, 41, 41);
+  font-weight: bolder;
+  font-size: large;
+  border: 2px solid, #C0C0C0;
+  width: 200px;
+  height: 50px;
+  margin-left: 41.5rem;
+}
+
+span{
+  font-size: xx-large;
+}
+
+.d1{
+  text-align: center;
+  font-size: x-large;
+  margin-top: 2rem;
+}
