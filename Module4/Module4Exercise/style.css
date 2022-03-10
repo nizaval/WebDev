@@ -120,91 +120,126 @@ nav li a:active {
 }
 
 #d1 {
-  background-color: red;
- 
+  background-color: rgb(190, 169, 148);
+  left: 300px;
+  top: 200px;
   position: absolute;
-  width: 250px;
+  width: 250px; 
   height: 100px;
-  border: 5px solid #000;
-  color: black;
+  border: 5px solid rgb(0, 0, 0);
   font-weight: bold;
   text-align: center;
 }
 #d2 {
-  background-color: green;
- 
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 600px;
+  top: 200px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 #d3 {
-  background-color: blue;
- 
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 900px;
+  top: 200px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 #d4 {
-  background-color: yellow; 
-  
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 1200px;
+  top: 200px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 #d5 {
-  background-color: yellow;
- 
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 300px;
+  top: 800px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 #d6 {
-  background-color: yellow;
-   
- 
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 600px;
+  top: 800px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 #d7 {
-  background-color: yellow;
-  margin-left: 50rem;
-  
-  
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 900px;
+  top: 800px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 #d8 {
-  background-color: yellow;
-  margin-left: 70rem;
-
-  width: 250px;
+  background-color: rgb(190, 169, 148);
+  left: 1200px;
+  top: 800px;
+  position: absolute;
+  width: 250px; 
   height: 100px;
   border: 5px solid #000;
-  color: black;
+
   font-weight: bold;
   text-align: center;
 }
 
-.inline-block-child {
-  display: inline-block;
+.p2{
+  overflow: scroll;
+}
+
+#img1{
+  z-index: -1;
+  position: absolute;
+  top: 900px;
+  left: 0px;
+}
+#img2{
+  z-index: 1;
+  position: absolute;
+  top: 900px;
+  left: 130px;
+}
+#img3{
+  z-index: -1;
+  position: absolute;
+  top: 900px;
+  left: 330px;
+}
+#img4{
+  z-index: -1;
+  position: absolute;
+  top: 1000px;
+  left: 130px;
 }
