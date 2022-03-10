@@ -8,6 +8,11 @@ body{
     color: #15645e;
 }
 
+.body{
+  background-image: url(images/watermark.jpg);
+  background-repeat: no-repeat;
+}
+
 
 .img {
     float: right;
