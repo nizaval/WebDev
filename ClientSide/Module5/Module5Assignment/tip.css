@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    letter-spacing: 0.4px;
+}
+body{
+    background-color: #e7e3dc;
+    height: 100%;
+  
+}
+.container{
+    background-color: #5b8d76;
+    width: 450px;
+    padding: 50px 40px;
+    border-radius: 5rem;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 50%;
+}
+
+
+.wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.wrapper1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 12px 0;
+}
+
+.label{
+    color: #0a0b11;
+    font-weight: 400;
+    background-color: #fbfbfb;
+    width: 80rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 1.5rem;
+}
+
+.lbl{
+    font-size: 16px;
+    color: #0a0b11;
+    font-weight: 400;
+    background-color: #fbfbfb;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 1.5rem;
+}
+
+.lbl2{
+    font-size: 16px;
+    color: #0b0808;
+    font-weight: 400;
+    background-color: #ffffffd3;
+    width: 5rem;
+    height: 3rem;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 1.5rem;
+}
+
+.bill{
+    color: #44475b;
+    font-weight: 500;
+    font-size: 18px;
+}
+.input-box{
+    background-color: #426a5f;
+    color: #fff4f4;
+    padding: 5px;
+}
+#billNum{
+    background-color: transparent;
+    border: none;
+    outline: none;
+    width: 100px;
+    text-align: right;
+    color: #ce6868;
+}
+hr{
+    border: none;
+    border-bottom: 1px solid #fcf9f9;
+}
+input{
+    width: 88%;
+    cursor: pointer;
+    padding-top: 5px;
+}
+input:not(:last-child){
+    margin-bottom: 5px;
+}
+section:not(:last-child){
+    margin-bottom: 40px;
+}
+section:not(:first-child){
+    margin-top: 40px;
+}
+section:last-child{
+    background-color: #89c0ae;
+    padding: 10px;
+    border-radius: 1.5rem;
+}
+section:last-child .val,
+section:last-child .lbl{
+    color: rgb(17, 16, 16);
+}
+
+.sitetitle{
+    font-size: 40px;
+    background-color: #ccbdaf91;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #20665d;
+    text-align: center;
+}
