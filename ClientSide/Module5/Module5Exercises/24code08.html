@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Alerts, Confirmations, and Prompts</title>
+    <meta name="viewport" 
+          content="width=device-width, initial-scale=1">
+          <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <header>
+      <h1 class="sitetitle">Niza Valenzuela's Web Development Class</h1>
+    </header>
+
+    <nav class="navbar">
+      <a href="index.html">Home</a> 
+      <a href="24code03.html">Keys</a>
+      <a href="24code04.html">Hide Show</a>
+      <a href="24code07.html">Time</a>
+      <a href="24code08.html">Window</a>
+    </nav
+
+    <h1>Alerts, Confirmations, and Prompts</h1>
+    <p>
+      Use the buttons below to test dialogs in JavaScript.
+    </p>
+    <button type="button" id="alert">
+      Display an Alert
+    </button>
+    
+    <button type="button" id="confirm">
+      Display a Confirmation 
+    </button>
+    
+    <button type="button" id="prompt">
+      Display a Prompt
+    </button>
+    <p>Confirmation: <spa id="conf"></spa></p>
+    <p>Prompts: <spa id="prom"></spa></p>
+    
+    <script>
+      text = new Array();
+      document.getElementById("alert").addEventListener("click", 
+                                       function() {
+        alertVal = window.alert("This is a test alert."); 
+      });
+      document.getElementById("confirm").addEventListener("click", 
+                                       function() {
+        confirmVal = window.confirm("Would you like to confirm?");
+        document.getElementById('conf').innerText = confirmVal; 
+      });
+      document.getElementById("prompt").addEventListener("click", 
+                                       function() {
+        promptVal = window.prompt("Enter Text:","");
+        document.getElementById('prom').innerText = promptVal;
+        
+      });
+    </script>
+  </body>
+</html>
