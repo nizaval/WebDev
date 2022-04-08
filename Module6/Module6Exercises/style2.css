@@ -1,0 +1,96 @@
+body{
+    background-color:white;
+    color: #15645e;
+}
+
+.sitetitle{
+    font-size: 40px;
+    background-color: #d0b08f91;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #2e8c86;
+    text-align: center;
+}
+
+/*navigation style*/
+.navbar {
+    overflow: hidden;    
+    position: static;
+    padding-top: 30px;
+    width: 100%;
+}
+  
+  .navbar a {
+    float: left;
+    display:block;
+    color: #4a8a7f;
+    text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: x-large;
+    font-weight: bold;
+}
+  .navbar a:hover {
+    color: #514438;
+    background-color: #d0b08f65;
+ }
+  
+  
+  a:link{
+    color: rgb(37, 167, 145);
+}
+  
+  a:visited{
+    color: rgb(69, 111, 114);
+}
+  
+  a:hover{
+    color: rgb(66, 122, 245);
+}
+
+.box {
+    margin: 0 auto;
+    width: 500px;
+    height: 400px;
+    
+    background: url(images/wolf.svg) center bottom / 
+                                     cover repeat, 
+                url(images/moon.png) right top / 45% no-repeat, linear-gradient(to top, #214438, #3e7361, #4d8672,
+                #5d9983, #6eac95, #7bb7a3, 
+                #89c3b1, #97cebf, #a6d3ca, 
+                #b6d8d3, #c7dcdb, #d8e1e1);
+  }
+
+.boxT{
+  width: 20rem;
+  height: 30rem;
+  border: solid 1px black;
+  margin: 1rem;
+  float: left;
+}
+
+.one{
+  background: url(https://picsum.photos/id/384/500/500);
+  transform: translate(50px, 100px);  
+}
+
+.two{
+  transform: rotate(10deg); 
+  /* transform: translate(150px, 20px); */
+  background: url(https://picsum.photos/id/293/500/500);
+ 
+}
+
+.three{
+  background: url(https://picsum.photos/id/839/500/500);
+  transform: rotate(-17deg);
+}
+
+.four{
+  background: url(https://picsum.photos/id/925/500/500);
+  transform: skewX(-20deg);
+}
+
+.five{
+  background: url(https://picsum.photos/id/294/500/500);
+  transform: skew(-7deg, 10deg);
+}
